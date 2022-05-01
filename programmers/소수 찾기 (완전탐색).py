@@ -30,3 +30,16 @@ print(solution(numbers))    # 3
 numbers = "011"
 print(solution(numbers))    # 2
 
+
+
+## 다른 사람 풀이
+from itertools import permutations
+
+def solution(n):
+    a = set()
+    for i in range(len(n)):
+        a |= set(map(int, map("".join, permutations(list(n), i + 1))))  # 조합 만들어서 중복 제거한 후 or연산
+    a -= set(range(0, 2))  # set에 0,1 제거 
+    for i in range(2, int(max(a) ** 0.5) + 1):  # '에라토스테네스 체' 이용
+        a -= set(range(i * 2, max(a) + 1, i))
+    return len(a)
