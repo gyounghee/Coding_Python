@@ -26,7 +26,7 @@ def solution(numbers):
 numbers = "17"
 print(solution(numbers))    # 3
 
-# TEST CASE Ⅰ
+# TEST CASE Ⅱ
 numbers = "011"
 print(solution(numbers))    # 2
 
