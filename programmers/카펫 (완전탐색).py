@@ -1,13 +1,10 @@
-# 카펫 - 완전탐
+# 카펫 - 완전탐색
 from math import sqrt
 
 def solution(brown, yellow):
     carpet_size = brown+yellow   # 카펫 크기
-    sqrt_n = sqrt(carpet_size) # 카펫 크기의 제곱근
-    if sqrt_n == int(sqrt_n) :  # 제곱근이 정수라면
-        return [ int(sqrt_n), int(sqrt_n) ]   
 
-    h_tmp = int(sqrt_n)
+    h_tmp = int(sqrt(carpet_size))
     while True :
         w, h = int( carpet_size/h_tmp ), h_tmp
         if brown == w * 2 + (h - 2) * 2 :
@@ -22,16 +19,16 @@ brown, yellow = 10, 2
 print(solution(brown, yellow))   # [4, 3]
 
 
-# TEST CASE Ⅰ
+# TEST CASE Ⅱ
 brown, yellow = 8, 1
 print(solution(brown, yellow))   # [3, 3]
 
 
-# TEST CASE Ⅰ
+# TEST CASE Ⅲ
 brown, yellow = 24, 24
 print(solution(brown, yellow))   # [8, 6]
 
-# TEST CASE Ⅰ
+# TEST CASE Ⅳ
 brown, yellow = 18, 6
 print(solution(brown, yellow))   # [8, 3]
 
