@@ -28,7 +28,8 @@
  * 프로그래머스 → 2020 카카오 인턴십 - 보석쇼핑   ▶▶▶▶ 다시 풀기
  * 프로그래머스 → 카펫 ( 완전탐색 )
  * 프로그래머스 → 소수 찾기 (완전 탐색)
-
+ * 프로그래머스 → 2020 KAKO BLIND RECRUITMENT - 문자열 압축
+ 
  #### * **SW Expert Academy**
  * SW Expert Academy → 평균값 구하기
  * SW Expert Academy → 홀수 만 더하기
