@@ -1,3 +1,7 @@
+# 백준 - 182446번
+# 답은 맞는데 제출하면 시간초과 
+
+
 # N - 색종이 장수, M - 쿼리의 개수 
 N, M = map(int, input().split())
 
@@ -20,3 +24,4 @@ for q in query:
     for row in range(q[0], q[2]):
         query_list.append(max(place[row][q[1]:q[3]]))
     print(max(query_list))
+
