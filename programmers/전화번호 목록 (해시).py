@@ -21,7 +21,7 @@ print(solution(phone_book))
 
 
 
-## 다른 풀이
+## 다른 풀이 - 해시 이용
 def solution(phone_book):
     hash_map = {}
     for phone_number in phone_book:
