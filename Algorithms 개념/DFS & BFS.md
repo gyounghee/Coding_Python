@@ -1,18 +1,59 @@
 * DFS (깊이 우선 탐색)  
   : 그래프에서 깊은 부분을 우선적으로 탐색하는 알고리즘
-  - STACK 자료구조 또는 재귀 함수 이용
-  - 동작 과정
-    1. 탐색 시작 노드를 stack에 삽입하고 방문 처리
-    2. stack의 최상단 노드에 방문하지 않은 인접한 노드가 하나라도 있으면 그 노드를 스택에 넣고 방문 처리
-    3. 더 이상 2번의 과정을 수행할 수 없을 때 까지 반복
-    ```python 
-    def dfs(graph, v, visited):
-        visited[v] = True
-        print(v, end=' ')
+    - STACK 자료구조 또는 재귀 함수 이용
+    - 동작 과정
+        1. 탐색 시작 노드를 stack에 삽입하고 방문 처리
+        2. stack의 최상단 노드에 방문하지 않은 인접한 노드가 하나라도 있으면 그 노드를 스택에 넣고 방문 처리
+        3. 더 이상 2번의 과정을 수행할 수 없을 때 까지 반복
+        ```python 
+        def dfs(graph, v, visited):
+            visited[v] = True
+            print(v, end=' ')
 
-        for i in graph[v]:  
-            if not visited[i]:
-                dfs(graph, i, visited)
+            for i in graph[v]:  
+                if not visited[i]:
+                    dfs(graph, i, visited)
+                    
+        # 각 노드가 연결된 정보를 표현
+        graph = [
+            [],
+            [2,3,8],
+            [1, 7],
+            [1, 4, 5],
+            [3, 5],
+            [3, 4],
+            [7],
+            [2, 6, 8],
+            [1, 7]
+            ]
+
+        visited = [False] * 9
+
+        dfs(graph, 1, visited)
+        ```  
+
+* BFS (너비 우선 탐색)  
+    : 그래프에서 가까운 노드부터 우선적으로 탐색하는 알고리즘
+    - Queue 자료구조 이용
+    - 동작 과정
+        1. 탐색 시작 노드를 queue에 삽입하고 방문 처리
+        2. queue에서 노드를 꺼낸 뒤 해당 노드의 인접 노드 중에서 방문하지 않은 노드를 모듀 큐에 삽입하고 방문 처리
+        3. 더 이상 2번의 과정을 수행할 수 없을 때까지 반복
+    ```python
+    from collections import deque
+
+    def bfs(graph, start, visited):
+        queue = deque([start])
+        visited[start] = True
+        
+        while queue:  # 큐가 빌 때까지 반복
+            v = queue.popleft()   
+            print(v, end = ' ')
+
+            for i in graph[v]:   # 방문하지 않은 인접한 원소들을 queue에 삽입
+                if not visited[i]:
+                    queue.append(i)
+                    visited[i] = True
                 
     # 각 노드가 연결된 정보를 표현
     graph = [
@@ -29,49 +70,8 @@
 
     visited = [False] * 9
 
-    dfs(graph, 1, visited)
-    ```  
-
-* BFS (너비 우선 탐색)  
- : 그래프에서 가까운 노드부터 우선적으로 탐색하는 알고리즘
- - Queue 자료구조 이용
- - 동작 과정
-   1. 탐색 시작 노드를 queue에 삽입하고 방문 처리
-   2. queue에서 노드를 꺼낸 뒤 해당 노드의 인접 노드 중에서 방문하지 않은 노드를 모듀 큐에 삽입하고 방문 처리
-   3. 더 이상 2번의 과정을 수행할 수 없을 때까지 반복
-   ```python
-  from collections import deque
-
-  def bfs(graph, start, visited):
-      queue = deque([start])
-      visited[start] = True
-      
-      while queue:  # 큐가 빌 때까지 반복
-          v = queue.popleft()   
-          print(v, end = ' ')
-
-          for i in graph[v]:   # 방문하지 않은 인접한 원소들을 queue에 삽입
-              if not visited[i]:
-                  queue.append(i)
-                  visited[i] = True
-              
-  # 각 노드가 연결된 정보를 표현
-  graph = [
-      [],
-      [2,3,8],
-      [1, 7],
-      [1, 4, 5],
-      [3, 5],
-      [3, 4],
-      [7],
-      [2, 6, 8],
-      [1, 7]
-      ]
-
-  visited = [False] * 9
-
-  bfs(graph, 1, visited)
-   ```
+    bfs(graph, 1, visited)
+    ```
 
 
 **문제 1 - 음료수 얼려먹기**
