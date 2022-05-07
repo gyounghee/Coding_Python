@@ -5,8 +5,9 @@ def solution(scoville, K):
     scoville.sort()
     while scoville[0] < K :
         if len(scoville) == 1 : return -1
-        else : 
-            first =  heapq.heappop(scoville)
+        else :
+            # heappop()은 heap에서 가장 작은 원소 pop
+            first =  heapq.heappop(scoville)  
             second = heapq.heappop(scoville)
             heapq.heappush(scoville, first + second * 2)
             answer += 1
