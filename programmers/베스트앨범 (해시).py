@@ -51,7 +51,7 @@ print(solution(genres, plays))       # [5, 4, 3, 2, 1, 0]
 
 
 
-## 다른 사람 풀이 1    -   공부 후 다시 분석 할 예정ㅠ
+## 다른 사람 풀이 1    -   공부 후 다시 분석 할 예정ㅠ 
 def solution(genres, plays):
     answer = []
     d = {e:[] for e in set(genres)}
