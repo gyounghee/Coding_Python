@@ -13,8 +13,6 @@ arr = 13
 print(solution(arr))   # false
 
 
-
-
 ## 다른 사람 풀이
 # str과 for문 & 비교 연산자 사용 
 def solution(x):
