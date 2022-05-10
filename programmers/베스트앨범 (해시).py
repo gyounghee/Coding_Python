@@ -51,7 +51,7 @@ print(solution(genres, plays))       # [5, 4, 3, 2, 1, 0]
 
 
 
-## 다른 사람 풀이    -   공부 후 다시 분석 할 예정ㅠ
+## 다른 사람 풀이 1    -   공부 후 다시 분석 할 예정ㅠ
 def solution(genres, plays):
     answer = []
     d = {e:[] for e in set(genres)}
@@ -61,4 +61,28 @@ def solution(genres, plays):
     for g in genreSort:
         temp = [e[1] for e in sorted(d[g],key= lambda x: (x[0], -x[1]), reverse = True)]   # ?
         answer += temp[:min(len(temp),2)]
+    return answer
+
+
+## 다른 사람 풀이 2 - 코드 분석 완료
+def solution(genres, plays):
+    answer = []
+
+    dic1 = {}
+    dic2 = {}
+
+    for i, (g, p) in enumerate(zip(genres, plays)):
+        if g not in dic1:    #  dic1은 장르별 (고유번호, 플레이 횟수)에 대한 정보를 담는 dictionary
+            dic1[g] = [(i, p)]  
+        else:
+            dic1[g].append((i, p))
+
+        if g not in dic2:     # dic2는 장르별 플레이 횟수를 합산한 dictionary
+            dic2[g] = p
+        else:
+            dic2[g] += p
+
+    for (k, v) in sorted(dic2.items(), key=lambda x:x[1], reverse=True):     # 장르별 플레이 횟수에 대하여 내림차순으로 정렬 한 후 장르별로 살펴봄
+        for (i, p) in sorted(dic1[k], key=lambda x:x[1], reverse=True)[:2]:  # 플레이 횟수에 대하여 내림차순으로 정렬 후 두 개를 슬라이싱 한 후 
+            answer.append(i)                                                 # answer에 고유번호 추가 
     return answer
