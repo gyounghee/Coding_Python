@@ -39,6 +39,7 @@
  #### * **BAEKJOON**
  * BAEKJOON → 색종이와 쿼리  ▶▶▶ 푸는 중 - 답은 맞는데 돌리면 시간초과 뜸
  * BAEKJOON → DFS와 BFS  ▶ 나중에 한 번 더 풀어보기 
+ * BAEKJOON → 수 정렬하기 
 
  #### * **SW Expert Academy**
  * SW Expert Academy → 평균값 구하기
