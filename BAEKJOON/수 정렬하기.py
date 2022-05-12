@@ -7,4 +7,3 @@ for _ in range(n):
 
 for _ in range(len(numbers)):
     print(heapq.heappop(numbers))
-
