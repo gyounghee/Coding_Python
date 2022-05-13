@@ -14,8 +14,9 @@
 
 # stdin.readline()과 input()함수의 속도 차이
 #  1. 두 함수간의 속도 차이는 Prompt 출력 여부와
-#  2. 한번에 읽어와 버퍼에 저장한느 stdin.redline() 함수가 하나씩 누를 때마다 버퍼에 보관하는 input()보다 처리 속도가 빠르다.
+#  2. 한번에 읽어와 버퍼에 저장하는 stdin.redline() 함수가 하나씩 누를 때마다 버퍼에 보관하는 input()보다 처리 속도가 빠르다.
 #    → 즉, 버퍼 사이즈 차이로 입력이 반복될수록 stdin.readline()이 우위를 가진다.
+#  3. input()함수의 경우 prompt message를 출력하고 개행 문자(\n)를 삭제한 값을 리턴하기 때문에 느린 것
 
 from sys import stdin
 
