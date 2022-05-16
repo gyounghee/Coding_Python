@@ -23,3 +23,11 @@ print(solution(citations))     # 4
 # TEST CASE Ⅳ
 citations = [6, 5, 5, 5, 5, 2, 1, 0]
 print(solution(citations))     # 5
+
+
+
+# 다른 사람 풀이
+def solution(citations):
+    citations.sort(reverse=True)
+    answer = max(map(min, enumerate(citations, start=1)))
+    return answer
