@@ -17,8 +17,8 @@ citations = [10, 10, 10, 10, 10]
 print(solution(citations))     # 5
 
 # TEST CASE Ⅲ
-citations = [0, 0, 0, 0, 0]
-print(solution(citations))     # 0
+citations = [4, 10, 20, 30, 40]
+print(solution(citations))     # 4
 
 # TEST CASE Ⅳ
 citations = [6, 5, 5, 5, 5, 2, 1, 0]
