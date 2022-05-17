@@ -38,8 +38,7 @@
  * 프로그래머스 → H-Index (정렬)
 
 #### * **LeetCode**
- * LeetCode → Two Sum
- * LeetCode → Add Two Numbers
+ * LeetCode → 1. Two Sum
  * LeetCode → 125. Valid Palindrome
  * LeetCode → 344. Reverse String
  * LeetCode → 937. Reorder Data in Log Files
