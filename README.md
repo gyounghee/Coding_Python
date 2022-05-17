@@ -47,6 +47,7 @@
  * BAEKJOON → DFS와 BFS  ▶ 나중에 한 번 더 풀어보기 
  * BAEKJOON → 수 정렬하기 
  * BAEKJOON → 수 정렬하기 2 < input()과 sys.stdin.readline()에 대해 공부함 > 
+ * BAEKJOON → 큐
 
  #### * **SW Expert Academy**
  * SW Expert Academy → 평균값 구하기
