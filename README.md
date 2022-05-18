@@ -44,6 +44,7 @@
  * LeetCode → 937. Reorder Data in Log Files
  * LeetCode → 819. Most Common Word
  * LeetCode → 49. Group Anagrams
+ * LeetCode → 5. Longest Palindromic Substring    (난이도 ★★  → 나에겐 좀 어려웠음..ㅜ)
 
  #### * **BAEKJOON**
  * BAEKJOON → 색종이와 쿼리  ▶▶▶ 푸는 중 - 답은 맞는데 돌리면 시간초과 뜸
