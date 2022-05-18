@@ -29,4 +29,4 @@ class Solution:
         # target에서 첫 번째 수를 뺸 결과를 키로 조회
         for i, n in enumerate(nums):
             if target - n in num_dic and i != num_dic[target-n]:
-                return [i,num_dic[target-n]]      
+                return [i,num_dic[target-n]]       
