@@ -48,8 +48,8 @@
  * LeetCode → 42. Trapping Rain Water  (난이도 ★★★  → 나에겐 좀 어려웠음..ㅜ)
  * LeetCode → 15. 3Sum    ( 공부 후  투 포인터 사용 재도전 )
  * LeetCode → 561. Array Partition I
- * LeetCode → 238. Product of Array Except Self
- * LeetCode → 121. Best Time to Buy and Sell Stock
+ * LeetCode → 238. Product of Array Except Self 
+ * LeetCode → 121. Best Time to Buy and Sell Stock (재도전) 
 
  #### * **BAEKJOON**
  * BAEKJOON → 색종이와 쿼리  ▶▶▶ 푸는 중 - 답은 맞는데 돌리면 시간초과 뜸
