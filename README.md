@@ -1,4 +1,5 @@
 ### [ python_prac ]
+
 #### * **프로그래머스**
  * 프로그래머스 → 프린터 (스택 / 큐)
  * 프로그래머스 → 다리를 지나는 트럭(스택)  ▶ 다시 풀어보기
@@ -37,6 +38,7 @@
  * 프로그래머스 → 하샤드 수 
  * 프로그래머스 → H-Index (정렬)
 
+
 #### * **LeetCode**
  * LeetCode → 1. Two Sum
  * LeetCode → 125. Valid Palindrome
@@ -51,12 +53,14 @@
  * LeetCode → 238. Product of Array Except Self 
  * LeetCode → 121. Best Time to Buy and Sell Stock (재도전) 
 
+
  #### * **BAEKJOON**
  * BAEKJOON → 색종이와 쿼리  ▶▶▶ 푸는 중 - 답은 맞는데 돌리면 시간초과 뜸
  * BAEKJOON → DFS와 BFS  ▶ 나중에 한 번 더 풀어보기 
  * BAEKJOON → 수 정렬하기 
  * BAEKJOON → 수 정렬하기 2 < input()과 sys.stdin.readline()에 대해 공부함 > 
  * BAEKJOON → 큐
+
 
  #### * **SW Expert Academy**
  * SW Expert Academy → 평균값 구하기
