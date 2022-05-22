@@ -52,6 +52,7 @@
  * LeetCode → 561. Array Partition I
  * LeetCode → 238. Product of Array Except Self 
  * LeetCode → 121. Best Time to Buy and Sell Stock (재도전) 
+ * LeetCode → 234. Palindrome Linked List  ( 런너(Runner)를 이용한 풀이법 공부 )
 
 
  #### * **BAEKJOON**
