@@ -77,3 +77,30 @@ class Solution:
                 return False
         
         return True
+
+
+#### 책 풀이 - 3. Runner(런너)를 이용한 우아한 풀이
+# - Deque로 구현한 풀이와 성능은 비슷하지만, 연결 리스트를 다른 자료형으로 변환하거나 편법을 쓰지 않고 그 자리에서 바로 풀이함
+
+class ListNode:
+    def __init__(self, val=0, next=None):
+        self.val = val
+        self.next = next
+
+class Solution:
+    def isPalindrome(self, head: Optional[ListNode]) -> bool:
+        rev = None
+        slow = fast = head
+        
+        # Runner를 이용해 역순 연결리스트 구성
+        while fast and fast.next :
+            fast = fast.next.next
+            rev, rev.next, slow = slow, rev, slow.next
+        
+        if fast : 
+            slow = slow.next
+        
+        # 팰린드롬 여부 확인
+        while rev and rev.val == slow.val:
+            slow, rev = slow.next, rev.next
+        return not rev
