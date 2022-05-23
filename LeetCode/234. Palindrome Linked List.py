@@ -96,11 +96,17 @@ class Solution:
         while fast and fast.next :
             fast = fast.next.next
             rev, rev.next, slow = slow, rev, slow.next
+            ## Runner의 동작 방식을 보기 위한 코드
+            # print("\n-----------------------------------------------")
+            # print("fast : ", fast)
+            # print("rev : ", rev)
+            # print("rev.next : ", rev.next )
+            # print("slow : ", slow)
         
         if fast : 
             slow = slow.next
         
         # 팰린드롬 여부 확인
         while rev and rev.val == slow.val:
-            slow, rev = slow.next, rev.next
-        return not rev
+            slow, rev = slow.next, rev.next 
+        return not rev     # rev의 값이 남아있다는 것은 팰린드롬이 성립하지 않았기 때문
