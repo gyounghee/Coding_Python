@@ -1,7 +1,7 @@
 # 21. Merge Two Sorted Lists
 # - 정렬되어 있는 두 연결 리스트를 합쳐라
 
-#### 책 풀이 - 재귀 구조로 연결
+#### 책 풀이 - 1. 재귀 구조로 연결
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
@@ -18,3 +18,21 @@ class Solution:
             list1.next = self.mergeTwoLists(list1.next, list2)
         
         return list1  
+
+
+#### 책 풀이 - 2. 반복 구조로 뒤집기
+class ListNode :
+    def __init__(self, val=0, next=None) :
+        self.val = val
+        self.next = next
+        
+class Solution:
+    def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        node, prev = head, None
+        
+        while node :
+            next_node, node.next = node.next, prev
+            prev , node = node, next_node
+            
+        return prev
+            
