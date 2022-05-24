@@ -54,6 +54,7 @@
  * LeetCode → 121. Best Time to Buy and Sell Stock (재도전) 
  * LeetCode → 234. Palindrome Linked List  ( 런너(Runner) 공부 )
  * LeetCode → 21. Merge Two Sorted Lists ( 다시 풀어보기 )
+ * LeetCode → 2. Add Two Numbers
 
 
  #### * **BAEKJOON**
