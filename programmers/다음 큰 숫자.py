@@ -21,7 +21,7 @@ def solution(n):
 
 
 
-#다른 사람 풀이
+# 다른 사람 풀이
 def nextBigNumber(n):
     num1 = bin(n).count('1')     # count함수 사용
     while True:
