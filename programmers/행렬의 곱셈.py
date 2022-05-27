@@ -14,5 +14,7 @@ def solution(arr1, arr2):
 
 
 # 다른 사람 풀이
-def solution(A, B):
-    return [[sum(a*b for a, b in zip(A_row,B_col)) for B_col in zip(*B)] for A_row in A]
+def solution(arr1, arr2):
+    return [[sum(a*b for a, b in zip(arr1_row,arr2_col)) for arr2_col in zip(*arr2)] for arr1_row in arr1]
+    # arr2의 열을 unpacking하여 풀어서 zip()해준 후 이를 이용하여 행렬곱 수행
+
