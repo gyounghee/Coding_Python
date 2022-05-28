@@ -1,6 +1,6 @@
 # 피로도
  
-# 내 답안 - 완전 탐색 이용
+# 내 답안 - 조합, 완전 탐색 이용
 from itertools import permutations  # 조합 사용하기 위해
 
 def solution(k, dungeons):
