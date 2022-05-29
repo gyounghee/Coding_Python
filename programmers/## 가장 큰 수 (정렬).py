@@ -1,29 +1,33 @@
-# 아 몰라 일단 보 ;;;
-def n_sort(n):
-    tmp_1,tmp_2 = [],[]
-    for i in range(len(n)):
-        if len(n[i]) == 1 : tmp_1.append(n[i])
-        else : tmp_2.append(n[i])
-    n = sorted(tmp_2, key = lambda x : str(x)[1], reverse=True)
-    for i in range(len(n)):
-        if n[i][-1] == '0' : n[:-i] += tmp_1.pop(0)
-    return n
-
-def solution(numbers):
-    answer = ""
-    n = sorted(numbers, key = lambda x : str(x)[0], reverse=True)
-    n, c =list(map(str, n)), 0
+# TEST CASE  1 ~ 6 실패
+def find_max(num_list):
+    from itertools import permutations
+    p_list = list(permutations(num_list,len(num_list)))
+    p_list = list(map(int, [''.join(n) for n in p_list]))
+    return str(max(p_list))
     
-    for i in range(len(n)-1):
-        if n[i][0] == n[i+1][0] : 
-            c += 1
-            if i == len(n)-2 and n[i] != '0':
-                n[i-c+1:i+2] = n_sort(n[i-c+1:i+2])
-        elif c > 0 and n[i][0] != n[i+1][0] :
-            n[i-c:i+1] = n_sort(n[i-c:i+1])
-            c = 0
-    for i in n:
-        answer += str(i)
+def solution(numbers):
+    if sum(numbers) == 0 :
+        return "0"
+    
+    answer = ''
+    str_n = list(map(str, numbers))
+    sort_n = sorted(str_n, key = lambda x:x[0], reverse = True)
+    
+    same = 0
+    for i in range(len(sort_n)-1):
+        if (sort_n[i] == '0') or ( same == 0 and sort_n[i][0] != sort_n[i+1][0] ) :
+            answer += sort_n[i]
+        elif  sort_n[i][0] == sort_n[i+1][0] :
+            same += 1
+        elif same != 0 and sort_n[i][0] != sort_n[i+1][0] :
+            answer += find_max(sort_n[i-same:i+1])
+            same = 0
+    
+    if same :
+        answer += find_max(sort_n[-same-1:])
+    else :
+        answer += sort_n[-1]
+            
     return answer
 
 
@@ -40,7 +44,7 @@ numbers = [0, 0, 0]
 print(solution(numbers))
 
 # TEST CASE Ⅳ
-numbers = [1, 10, 100, 1000]
+numbers = [1, 2, 21, 21]
 print(solution(numbers))
 
 
