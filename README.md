@@ -78,6 +78,7 @@
  * BEAKJOON → ATM (Greedy)
  * BEAKJOON → 동전 0 (Greedy)
  * BEAKJOON → 회의실 배정 (Greedy)
+ * BEAKJOON → 보물 (Greedy)
 
 
  #### * **SW Expert Academy**
