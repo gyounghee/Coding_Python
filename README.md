@@ -76,6 +76,8 @@
  * BAEKJOON → 1로 만들기 (DP)   ▶▶▶ 푸는 중 ◀◀◀ 
  * BAEKJOON → 피보나치 함수 (DP)
  * BEAKJOON → ATM (Greedy)
+ * BEAKJOON → 동전 0 (Greedy)
+ * BEAKJOON → 회의실 배정 (Greedy)
 
 
  #### * **SW Expert Academy**
