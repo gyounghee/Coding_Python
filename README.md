@@ -75,11 +75,12 @@
  * BAEKJOON → 설탕 배달 ( Greedy )
  * BAEKJOON → 1로 만들기 (DP)   ▶▶▶ 푸는 중 ◀◀◀ 
  * BAEKJOON → 피보나치 함수 (DP)
- * BEAKJOON → ATM (Greedy)
- * BEAKJOON → 동전 0 (Greedy)
- * BEAKJOON → 회의실 배정 (Greedy)
- * BEAKJOON → 보물 (Greedy)
- * BEAKJOON → 거스름돈 (Greedy)
+ * BAEKJOON → ATM (Greedy)
+ * BAEKJOON → 동전 0 (Greedy)
+ * BAEKJOON → 회의실 배정 (Greedy)
+ * BAEKJOON → 보물 (Greedy)
+ * BAEKJOON → 거스름돈 (Greedy)
+ * BAEKJOON → 전자레인지 (Greedy)
 
 
  #### * **SW Expert Academy**
