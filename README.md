@@ -82,7 +82,7 @@
  * BAEKJOON → 보물 (Greedy)
  * BAEKJOON → 거스름돈 (Greedy)
  * BAEKJOON → 전자레인지 (Greedy)
-
+ * BAEKJOON → 5와 6의 차이 (Greedy)
 
  #### * **SW Expert Academy**
  * SW Expert Academy → 평균값 구하기
