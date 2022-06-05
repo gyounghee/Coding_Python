@@ -9,3 +9,10 @@ a, b = a.replace('6','5'), b.replace('6','5')
 sum_min = int(a) + int(b)
 
 print(sum_min, sum_max)
+
+
+## 다른 풀이 분석
+# eval() 함수를 이용한 풀이 
+s=input()
+def r(a,b): return eval(s.replace(a,b).replace(' ','+'))
+print("{} {}".format(r('6','5'),r('5','6')))
