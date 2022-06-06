@@ -88,6 +88,7 @@
  * BAEKJOON → 크게 만들기
  * BAEKJOON → 평균
  * BAEKJOON → 개
+ * BAEKJOON → 평균은 넘겠지
 
 
  #### * **SW Expert Academy**
