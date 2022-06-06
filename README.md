@@ -85,7 +85,7 @@
  * BAEKJOON → 5와 6의 차이 
  * BAEKJOON → 세탁소 사장 동혁
  * BAEKJOON → 컵홀더
- * BAEKJOON → 크게 만들기     ▶▶▶ 푸는 중 ◀◀◀ 
+ * BAEKJOON → 크게 만들기
 
 
  #### * **SW Expert Academy**
