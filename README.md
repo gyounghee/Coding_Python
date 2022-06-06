@@ -86,6 +86,7 @@
  * BAEKJOON → 세탁소 사장 동혁
  * BAEKJOON → 컵홀더
  * BAEKJOON → 크게 만들기
+ * BAEKJOON → 평균
 
 
  #### * **SW Expert Academy**
