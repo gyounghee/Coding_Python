@@ -27,7 +27,7 @@ def solution(people, limit) :
     a = 0
     b = len(people) - 1
     while a < b :
-        if people[b] + people[a] <= limit :
+        if people[b] + people[a] <= limit : 
             a += 1
             answer += 1
         b -= 1
