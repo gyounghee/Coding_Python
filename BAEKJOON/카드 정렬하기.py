@@ -1,14 +1,15 @@
 # 1715번 - 카드 정렬하기
 
-import heapq
+from sys import stdin
+from heapq import * 
 
-numbers = [ int(input()) for _ in range(int(input()))]
-numbers.sort()
+numbers = [ int(stdin.readline()) for _ in range(int(stdin.readline()))]
+heapify(numbers)
 total = 0
 
-while len(numbers) != 1 :
-    one, two = heapq.heappop(numbers), heapq.heappop(numbers)
-    total += one + two
-    heapq.heappush( numbers, one+two )
+for _ in range(len(numbers)-1) :
+    value = heappop(numbers) + heappop(numbers)
+    total += value
+    heappush( numbers, value )
 
 print(total)
