@@ -76,6 +76,7 @@
  * BAEKJOON → 평균은 넘겠지
  * BAEKJOON → 30 
  * BAEKJOON → 뒤집기
+ * BAEKJOON → 카드 정렬하기
 
 
 #### * **LeetCode**
