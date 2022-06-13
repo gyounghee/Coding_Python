@@ -85,6 +85,7 @@
  * BAEKJOON → 배    ▶▶▶ 푸는 중 ◀◀◀ 
  * BAEKJOON → 단어 정렬
  * BAEKJOON → 팰린드롬수
+ * BAEKJOON → 소수 찾기
 
 
 #### * **LeetCode**
