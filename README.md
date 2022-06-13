@@ -51,6 +51,7 @@
  * Programmers → 월간 코드 챌린지 시즌 2 - 괄호 회전하기
  * Programmers → 구명보트 (Greedy)
  * Programmers → JadenCase 문자열 만들기
+ * Programmers → 멀리 뛰기
 
 
  #### * **BAEKJOON**
