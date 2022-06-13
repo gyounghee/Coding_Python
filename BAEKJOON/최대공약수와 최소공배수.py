@@ -10,6 +10,7 @@ print(lcm(a,b))
 
 
 ## 풀이 2
+# - 유클리드 호제법
 # - 최소 공배수 = 두 수의 곱 / 최대공약수
 x, y = map(int,input().split())
 a, b = max(x,y), min(x,y)
