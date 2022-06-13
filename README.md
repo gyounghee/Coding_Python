@@ -91,6 +91,10 @@
  * BAEKJOON → 괄호
  * BAEKJOON → 나이순 정렬
  * BAEKJOON → 직사각형에서 탈출
+ * BAEKJOON → 직각삼각형
+ * BAEKJOON → 달팽이는 올라가고 싶다
+ * BAEKJOON → 수 찾기
+
 
 
 #### * **LeetCode**
