@@ -96,6 +96,7 @@
  * BAEKJOON → 수 찾기
  * BAEKJOON → 카드
  * BAEKJOON → 좌표 정렬하기
+ * BAEKJOON → 숫자 카드 2
 
 
 #### * **LeetCode**
