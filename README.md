@@ -98,6 +98,8 @@
  * BAEKJOON → 좌표 정렬하기
  * BAEKJOON → 숫자 카드 2
  * BAEKJOON → ACM 호텔
+ * BAEKJOON → 요세푸스 문제 0
+ * BAEKJOON → 이항 계수 1
 
 
 #### * **LeetCode**
