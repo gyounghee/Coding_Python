@@ -100,6 +100,7 @@
  * BAEKJOON → ACM 호텔
  * BAEKJOON → 요세푸스 문제 0
  * BAEKJOON → 이항 계수 1
+ * BAEKJOON → 체스판 다시 칠하기
 
 
 #### * **LeetCode**
