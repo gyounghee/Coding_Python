@@ -102,7 +102,7 @@
  * BAEKJOON → 이항 계수 1
  * BAEKJOON → 체스판 다시 칠하기
  * BAEKJOON → 소수 구하기
-
+ * BAEKJOON → 스택 수열
 
 #### * **LeetCode**
  * LeetCode → 1. Two Sum
