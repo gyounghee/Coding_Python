@@ -2,7 +2,7 @@
 # def profile(name, age, lang1, lang2, lang3, lang4, lang5) :
 #     print(f"이름 : {name}\t나이 : {age}\t", end=" ")
 #     print(lang1, lang2, lang3, lang4, lang5)
-
+ 
 
 ## 이럴 때 사용하는 것이 "가변인자"
 def profile(name, age, *language) :

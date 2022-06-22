@@ -1,4 +1,4 @@
-gun = 10
+gun = 10 
 
 def checkpoint(soldiers) :  # 경계근무
     global gun
