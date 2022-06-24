@@ -114,6 +114,7 @@
  * BAEKJOON → N과 M (4)
  * BAEKJOON → 최대 힙
  * BAEKJOON → A+B - 4
+ * BAEKJOON → 별 찍기 - 2
 
 
 #### * **LeetCode**
