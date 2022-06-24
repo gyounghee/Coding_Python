@@ -4,10 +4,11 @@ from sys import *
 
 input = stdin.readline
 n = int(input())
-alpha = input()
+s = input().rstrip()
+alpha = {chr(i):i-96 for i in range(97,123)}
 total = 0
 
-for i in range(n) :
-    total += (ord(alpha[i])-96) * (31**i)
+for i in range(len(s)) :
+    total += alpha[s[i]] * (31**i)
 
-print(total)
+print(total%1234567891)
