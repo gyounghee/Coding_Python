@@ -124,6 +124,7 @@
  * BAEKJOON → 덩치
  * BAEKJOON → 부녀회장이 될테야
  * BAEKJOON → A → B
+ * BAEKJOON → 팩토리얼 0의 개수
 
 
 #### * **LeetCode**
