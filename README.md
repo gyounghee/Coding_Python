@@ -62,7 +62,7 @@
  * BAEKJOON → 수 정렬하기 2 < input()과 sys.stdin.readline()에 대해 공부함 > 
  * BAEKJOON → 큐
  * BAEKJOON → 설탕 배달 
- * BAEKJOON → 1로 만들기    ▶▶▶ 푸는 중 ◀◀◀ 
+ * BAEKJOON → 1로 만들기
  * BAEKJOON → 피보나치 함수 
  * BAEKJOON → ATM 
  * BAEKJOON → 동전 0 
