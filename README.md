@@ -122,6 +122,8 @@
  * BAEKJOON → 균형잡힌 세상
  * BAEKJOON → 통계학
  * BAEKJOON → 덩치
+ * BAEKJOON → 부녀회장이 될테야
+ * BAEKJOON → A → B
 
 
 #### * **LeetCode**
