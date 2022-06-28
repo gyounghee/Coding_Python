@@ -125,7 +125,7 @@
  * BAEKJOON → 부녀회장이 될테야
  * BAEKJOON → A → B
  * BAEKJOON → 팩토리얼 0의 개수
- * BAEKJOON → 수 묶기    ▶▶▶ 푸는 중 ◀◀◀ 
+ * BAEKJOON → 수 묶기 
 
 
 #### * **LeetCode**
