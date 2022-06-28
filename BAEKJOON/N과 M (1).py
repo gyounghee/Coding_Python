@@ -22,23 +22,25 @@ for p in perm :
 #   - 결과값 저장(list), 방문여부 체크(list)
 
 from sys import stdin
-           
-N, M = map(int, stdin.readline().split())  # 두 개의 숫자를 입력
-ans = []
+
+input = stdin.readline
+N, M = map(int, input().split())
+
+rs = []
 chk = [False] * (N+1)
 
-def BT(n) :
+def BT(n):
     if n == M :
-        print(' '.join(map(str, ans)))
+        print(' '.join(map(str, rs)))
         return
-    for i in range(1, N+1):
-        if chk[i] == False :
+    for i in range(1,N+1):
+        if not chk[i] :
             chk[i] = True
-            ans.append(i)
+            rs.append(i)
             BT(n+1)
             chk[i] = False
-            ans.pop()
-            
+            rs.pop()
+
 BT(0)
 
 
