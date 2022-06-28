@@ -6,6 +6,6 @@ from sys import stdin
 N ,T = int(stdin.readline()), list(map(int, stdin.readline().split()))
 
 T.sort(reverse=True)
-day = [ T[i]-(N-i) for i in range(N) if T[i]-(N-i) >= 0]
+exceed = [ T[i]-(N-i) for i in range(N) if T[i]-(N-i) >= 0]
 
-print(max(day)+N+2)
+print(max(exceed)+N+2)
