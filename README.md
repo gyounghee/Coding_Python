@@ -127,6 +127,9 @@
  * BAEKJOON → 팩토리얼 0의 개수
  * BAEKJOON → 수 묶기
  * BAEKJOON → 이진수 연산 
+ * BAEKJOON → X보다 작은 수
+ * BAEKJOON → 더하기 사이클
+ * BAEKJOON → 좌표 정렬하기 2
 
 
 #### * **LeetCode**
