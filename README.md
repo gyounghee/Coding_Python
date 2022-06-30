@@ -131,6 +131,7 @@
  * BAEKJOON → 더하기 사이클
  * BAEKJOON → 좌표 정렬하기 2
  * BAEKJOON → 나무 자르기
+ * BAEKJOON → 영화감독 숌 (다른 분 아이디어 참고 & 코드 분석)
 
 
 #### * **LeetCode**
