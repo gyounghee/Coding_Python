@@ -130,6 +130,7 @@
  * BAEKJOON → X보다 작은 수
  * BAEKJOON → 더하기 사이클
  * BAEKJOON → 좌표 정렬하기 2
+ * BAEKJOON → 나무 자르기
 
 
 #### * **LeetCode**
