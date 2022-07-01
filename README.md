@@ -133,6 +133,7 @@
  * BAEKJOON → 나무 자르기
  * BAEKJOON → 영화감독 숌 (다른 분 아이디어 참고 & 코드 분석)
  * BAEKJOON → 마인크래프트 (PyPy3로 성공)
+ * BAEKJOON → 랜선 자르기
 
 
 #### * **LeetCode**
