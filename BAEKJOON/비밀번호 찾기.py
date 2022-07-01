@@ -7,11 +7,15 @@ from sys import *
 input = stdin.readline
 
 N, M = map(int, input().split())
+ans = []
 
-site_pw = {}
-for _ in range(N) :
-    k, v = input().split()
-    site_pw[k] = v
-
+name = { input().rstrip():0 for _ in range(N) }  
 for _ in range(M) :
-    print(site_pw[input().rstrip()])
+    try : name[input().rstrip()] +=1 
+    except : pass
+
+for k, v in name.items() :
+    if v == 1 : ans.append(k)
+
+print(len(ans))
+print('\n'.join(sorted(ans)))
