@@ -3,7 +3,7 @@
 n = int(input())
 
 i = 0
-cnt = 0
+cnt = 0   # # 666이 연속으로 몇번 나왔는 지
 while True:
     i += 1
     if str(i).count("666") >= 1:
