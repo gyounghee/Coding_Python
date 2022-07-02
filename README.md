@@ -135,6 +135,7 @@
  * BAEKJOON → 마인크래프트 (PyPy3로 성공)
  * BAEKJOON → 랜선 자르기
  * BAEKJOON → 비밀번호 찾기
+ * BAEKJOON → 2×n 타일링
 
 
 #### * **LeetCode**
