@@ -2,8 +2,9 @@
 
 # 일반 유닛
 class Unit :
-    def __init__(self, name, hp, damage):
-        self.name = name
+    # __init__ (생성자) : 객체(클래스로부터 만들어지는 것들)가 만들어질 때 자동으로 호출됨
+    def __init__(self, name, hp, damage):  # 멤버변수 : 클래스 내에서 정의된 변수들 (name, hp, damage)
+        self.name = name  
         self.hp = hp
         self.damage = damage
         print(f"{name} 유닛이 생성 되었습니다.")
@@ -31,6 +32,7 @@ if wraith2.clocking == True :
 
 
 # -----------------------------------------------------------
+# 클래스 내에서는 method 멤버변수에 self 명시
 
 # 공격 유닛
 class AttackUnit :
