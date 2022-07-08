@@ -150,6 +150,7 @@
  * BAEKJOON → 점프왕 쩰리 (Small)
  * BAEKJOON → 유기농 배추
  * BAEKJOON → Fly me to the Alpha Centauri
+ * BAEKJOON → X보다 작은 수
 
 
 #### * **LeetCode**
