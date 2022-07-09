@@ -153,6 +153,7 @@
  * BAEKJOON → X보다 작은 수
  * BAEKJOON → 단지번호붙이기
  * BAEKJOON → 파도반 수열
+ * BAEKJOON → 케빈 베이컨의 6단계 법칙
 
 
 #### * **LeetCode**
