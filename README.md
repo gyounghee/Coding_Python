@@ -152,6 +152,7 @@
  * BAEKJOON → Fly me to the Alpha Centauri
  * BAEKJOON → X보다 작은 수
  * BAEKJOON → 단지번호붙이기
+ * BAEKJOON → 파도반 수열
 
 
 #### * **LeetCode**
