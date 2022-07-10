@@ -156,6 +156,7 @@
  * BAEKJOON → 케빈 베이컨의 6단계 법칙
  * BAEKJOON → 바닥 장식
  * BAEKJOON → 1, 2, 3 더하기
+ * BAEKJOON → 나누기
 
 
 #### * **LeetCode**
