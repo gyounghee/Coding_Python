@@ -61,3 +61,43 @@ for i in range(c) :
     if res : break
     
 print('YES' if "2" in p[-1] else 'NO')
+
+
+
+
+## 다른 사람 풀이 ( DFS 풀이 )
+# - 메모리 : 39552 KB  /  시간 : 128 ms
+
+import sys
+sys.setrecursionlimit(10**6)
+M, N = map(int, sys.stdin.readline().strip().split())
+
+nodeMap = []
+for _ in range(M):
+    nodeMap.append(sys.stdin.readline().strip())
+
+nodeCk = [[False for _ in range(N)] for _ in range(M)]
+
+nextYX = [(1, 0), (0, 1), (0, -1), (-1, 0)]
+
+res = 'NO'
+def dfs(y, x):
+    global res
+    if y == M - 1:
+        res = 'YES'
+
+    nodeCk[y][x] = True
+    for Y, X in nextYX:
+        nextY = y + Y
+        nextX = x + X
+        if res != 'YES' and -1 < nextY < M and -1 < nextX < N and nodeMap[nextY][nextX] == '0' and nodeCk[nextY][nextX] == False:
+            dfs(nextY, nextX)
+
+for i in range(N):
+    if nodeMap[0][i] == '0':
+        dfs(0, i)
+    
+    if res == 'YES':
+        break
+
+print(res)
