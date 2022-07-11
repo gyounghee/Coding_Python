@@ -158,6 +158,7 @@
  * BAEKJOON → 1, 2, 3 더하기
  * BAEKJOON → 나누기
  * BAEKJOON → 분산처리
+ * BAEKJOON → 숫자판 점프
 
 
 #### * **LeetCode**
