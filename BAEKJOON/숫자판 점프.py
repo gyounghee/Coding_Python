@@ -11,7 +11,7 @@ def DFS(x,y,s) :
             DFS(xx, yy, f'{s}{p[xx][yy]}')
 
 dx, dy = [-1,1,0,0], [0,0,-1,1]
-p = [list(input().split()) for _ in range(5)]
+p = [input().split() for _ in range(5)]
 ans = set()
 
 for i in range(5) :
