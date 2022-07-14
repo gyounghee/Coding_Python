@@ -162,7 +162,8 @@
  * BAEKJOON → 침투
  * BAEKJOON → 연결 요소의 개수
  * BAEKJOON → 2×n 타일링 2
- * BAEKJOON → 토마토
+ * BAEKJOON → 토마토 (7576번)
+ * BAEKJOON → 좌표 압축
 
 
 #### * **LeetCode**
