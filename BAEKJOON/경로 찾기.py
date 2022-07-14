@@ -23,3 +23,29 @@ for i in range(n) :
 
 for i in range(n):
     print(' '.join(g[i]))
+
+
+
+
+
+## 다른 사람 풀이
+# - DFS 이용
+# - 메모리 : 30840 KB  /  시간 : 84 ms
+
+n = int(input())
+
+adj_list = [[] for i in range(n)]   # 간선을 나타내기 위한 list 생성 
+for i in range(n):
+    temp = list(map(int, input().split()))
+    adj_list[i] = [idx for idx, value in enumerate(temp) if value == 1]
+    
+def dfs(a, visit):
+    for ad in adj_list[a]:
+        if visit[ad] == 0:
+            visit[ad] = 1
+            dfs(ad, visit)
+
+for i in range(n):
+    visit = [0]*n
+    dfs(i,visit)
+    print(*visit)
